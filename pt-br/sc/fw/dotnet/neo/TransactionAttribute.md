@@ -21,4 +21,4 @@ public class TransactionAttribute: IApiInterface
 
 ## Construtor
 
-O objeto `TransactionAttribute` é construído através do método [GetAttributes ()](Transaction/GetAttributes.md).
+O objeto `TransactionAttribute` é construído através do método [GetAttributes ()](Transaction/GetAttributes.md) do objeto `Transaction`.
