@@ -1,19 +1,19 @@
-# Enrollment.PublicKey Property
+# Propriedade `Enrollment.PublicKey`
 
-Returns the public key of the bookkeeper.
+Retorna a chave pública do Nó de Consenso.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public extern byte[] PublicKey {get;}
 ```
 
-Attribute value: the public key of the bookkeeper as a byte array of length 33.
+Atributo: A chave pública do Nó de Consenso no formato de um *array* byte de tamanho 33.
 
 
 
-[Back](../Enrollment.md)
+[Voltar](../Enrollment.md)
