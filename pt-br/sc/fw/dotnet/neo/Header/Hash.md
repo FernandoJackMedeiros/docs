@@ -1,19 +1,19 @@
-# Header.Hash Property
+# Propriedade `Header.Hash`
 
-Returns the hash of the block.
+Retorna a *hash* do bloco.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public extern byte[] Hash {get;}
 ```
 
-Attribute value: Hash of the block as a byte array of length 32.
+Atributo: *Hash* do bloco no formato de um *array* byte de tamanho 32.
 
 
 
-[Back](../header.md)
+[Voltar](../header.md)
