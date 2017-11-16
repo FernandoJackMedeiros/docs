@@ -1,42 +1,42 @@
-# Contract.Create Method (byte[], byte[], byte, bool, string, string, string, string, string)
+# Método `Contract.Create(byte[], byte[], byte, bool, string, string, string, string, string)`
 
-Calling this method in a smart contract will publish a new contract.
+Invocar este método em um *smart contract* fará com que um novo *smart contract* seja publicado.
 
-This is a replacement for PublishTransaction in version 2.0.
+É um substituto do método `PublichTransaction` para a versão 2.0.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public static extern Neo.SmartContract.Framework.Services.Neo.Contract CreateContract(byte[] script, byte[] parameter_list, byte return_type, bool need_storage, string name, string version, string author, string email, string description)
 ```
 
-Parameters:
+Parâmetros:
 
-script: The contract bytecode as a byte array.
+`script`: bytecode do contrato no formato de um *array* byte.
 
-parameter_list: Parameter list as a byte array. Refer to [Smart Contract Parameters and Return Values](../../../../tutorial/Parameter.md).
+`parameter_list`: Lista de parâmetros no formato *array* byte. Consulte os [parâmetros de entrada e saída em *smart contracts*](../../../../tutorial/Parameter.md).
 
-return_type: Return type as a byte. Refer to [Smart Contract Parameters and Return Values](../../../../tutorial/Parameter.md).
+`return_type`: Tipo do valor de retorno, no formado de um byte. Consulte os [parâmetros de entrada e saída em *smart contracts*](../../../../tutorial/Parameter.md).
 
-need_storage: If the contract requires a persistent store, boolean.
+`need_storage`: Booleano que define se o contrato precisa ou não de armazenamento persistente.
 
-name: The name of the contract as a string.
+`name`: Nome do contrato no formato *string*.
 
-version: The version as a string.
+`version`: Versão no formato *string*.
 
-author: The author name as a string.
+`author`: Nome do autor no formato *string*.
 
-email: The author email as a string.
+`email`: Email do autor no formato *string*.
 
-description: The description of the contract as a string.
+`description`: Descrição do contrato no formato *string*.
 
-Return value: [Contract](../Contract.md).
+`Return value`: Objeto do [contrato](../Contract.md).
 
-## Example
+## Exemplo
 
 ```c#
 public class Contract1 : FunctionCode
@@ -62,4 +62,4 @@ public class Contract1 : FunctionCode
 
 
 
-[Back](../Contract.md)
+[Voltar](../Contract.md)
