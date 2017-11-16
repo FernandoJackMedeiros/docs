@@ -1,19 +1,19 @@
-# Contract.Script Property
+# Proriedade `Contract.Script`
 
-Returns the scripthash of the contract account.
+Retorna a *hash* de script da conta do contrato.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public byte[] Script {get;}
 ```
 
-Attribute value: scripthash as a byte array of length 20.
+Atributo: *Hash* de script no formato de um *array* byte de tamanho 20.
 
 
 
-[Back](../Account.md)
+[Voltar](../Account.md)
