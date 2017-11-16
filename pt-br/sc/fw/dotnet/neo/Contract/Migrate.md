@@ -1,42 +1,46 @@
-# Contract.Migrate Method (byte[], byte[], byte, bool, string, string, string, string, string)
+# `Contract.Migrate(byte[], byte[], byte, bool, string, string, string, string, string)`
 
-Migrate/renew smart contract. This method is similar to `Contract.Create`, the only difference being this method adds logic for migration of the private persistent store. When executing this method, it will migrate all **existing data** in the persistent store to the new contract.
+Migra/renova o *smart contract*. 
+Este método é similar ao `Contract.Create`; a única diferença é que este método adiciona lógica para migrar o armazenamento persistente privado do contrato. Quando este método é executado, ele migrará toda informação **existente** no armazenamento persistente para o novo contrato.
 
-If the contract does not utilise the persistent store, `Contract.Migrate` is functionally the same as `Contract.Create`.
+Se o contrato não utiliza o armazenamento persistente, `Contract.Migrate` funcional da mesma forma que `Contract.Create`.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-## Syntax
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
+
+
+## Sintaxe
 
 ```c#
 public static extern Neo.SmartContract.Framework.Services.Neo.Contract Migrate(byte[] script, byte[] parameter_list, byte return_type, bool need_storage, string name, string version, string author, string email, string description)
 ```
 
-Parameters: 
+Parâmetros:
 
-script: The contract bytecode as a byte array.
+`script`: bytecode do contrato no formato de um *array* byte.
 
-parameter_list: Parameter list as a byte array. Refer to [Smart Contract Parameters and Return Values](../../../../tutorial/Parameter.md).
+`parameter_list`: Lista de parâmetros no formato *array* byte. Consulte os [parâmetros de entrada e saída em *smart contracts*](../../../../tutorial/Parameter.md).
 
-return_type: Return type as a byte. Refer to [Smart Contract Parameters and Return Values](../../../../tutorial/Parameter.md).
+`return_type`: Tipo do valor de retorno, no formado de um byte. Consulte os [parâmetros de entrada e saída em *smart contracts*](../../../../tutorial/Parameter.md).
 
-need_storage: If the contract requires a persistent store, boolean.
+`need_storage`: Booleano que define se o contrato precisa ou não de armazenamento persistente.
 
-name: The name of the contract as a string.
+`name`: Nome do contrato no formato *string*.
 
-version: The version as a string.
+`version`: Versão no formato *string*.
 
-author: The author name as a string.
+`author`: Nome do autor no formato *string*.
 
-email: The author email as a string.
+`email`: Email do autor no formato *string*.
 
-description: The description of the contract as a string.
+`description`: Descrição do contrato no formato *string*.
 
-Return value: [Contract](../Contract.md).
+`Return value`: Objeto do [contrato](../Contract.md).
 
-## Example
+
+## Exemplo
 
 ```c#
 public class Contract1 : FunctionCode
@@ -66,4 +70,4 @@ public class Contract1 : FunctionCode
 
 
 
-[Back](../Contract.md)
+[Voltar](../Contract.md)
