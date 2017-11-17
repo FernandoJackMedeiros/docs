@@ -1,19 +1,18 @@
-# Header.NextConsensus Property
+# Propriedade Header.NextConsensus
 
-Returns the hash value of the next bookkeeper contract
+Retorna a *hash* do contrato do próximo Nó de Consenso.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public extern byte[] NextConsensus {get;}
 ```
 
-Attribute value: Hash value of the accounting contract as a byte array of length 20.
+Atributo: *Hash* da conta contrato, no formato de um *array* byte de tamanho 20.
 
 
-
-[Back](../header.md)
+[Voltar](../header.md)
