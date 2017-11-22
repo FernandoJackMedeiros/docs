@@ -1,15 +1,15 @@
-# StorageContext.CallingContract Enumeration
+# Enum `StorageContext.CallingContract`
 
-Caller's storage context.
+Contexto de armazenamento do contrato invocador.
 
 > [!Caution]
-> Note: deprecated in version 2.0.
+> Obsoleto na versão 2.0.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public enum StorageContext: byte
@@ -20,8 +20,8 @@ public enum StorageContext: byte
 }
 ```
 
-Enumeration value: 2.
+Valor Enum: 2.
 
 
 
-[Back](../StorageContext.md)
+[Voltar](../StorageContext.md)
