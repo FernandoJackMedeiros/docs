@@ -1,19 +1,20 @@
-# TransactionAttribute.Hash Property
+# Propriedade `TransactionAttribute.Hash`
 
-Returns data outside of the purpose of transaction.
+Retorna informação/dados da transação que não seu propósito/uso.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-## Syntax
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
+
+## Sintaxe
 
 ```c#
 public extern byte[] Data {get;}
 ```
 
-Attribute value: Data as a byte array.
+Atributo: Informação como um *array* byte.
 
 
 
-[Back](../TransactionAttribute.md)
+[Voltar](../TransactionAttribute.md)
