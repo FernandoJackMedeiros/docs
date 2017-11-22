@@ -1,22 +1,21 @@
-# Runtime.Log Method (string)
+# Método `Runtime.Log(string)`
 
-Sends a log message to the client executing the smart contract. This method can trigger an event on the client but will require the client to be compatible.
+Envia uma mensagem de log para o cliente executando o *smart contract*. Este método pode executar um evento no cliente, mas para tal o cliente precisará ser compatível.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public static extern void Log(string message)
 ```
 
-Parameters: 
+Parâmetros: A *mensagem log* no formato *string*.
 
-message: Log as a string.
 
-## Example
+## Exemplo
 
 ```c#
 public class Contract1 : FunctionCode
@@ -33,4 +32,4 @@ public class Contract1 : FunctionCode
 
 
 
-[Back](../Runtime.md)
+[Voltar](../Runtime.md)
