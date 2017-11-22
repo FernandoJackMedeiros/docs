@@ -1,19 +1,19 @@
-# Header.PrevHash Property
+# Propriedade `Header.PrevHash`
 
-Returns the hash of the previous block.
+Retorna a *hash* do bloco anterior.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public extern byte[] PrevHash {get;}
 ```
 
-Attribute value: Hash of the previous block as a byte array of length 32.
+Atributo: *Hash* do bloco anterior no formato de um *array* byte de tamanho 32.
 
 
 
-[Back](../header.md)
+[Voltar](../header.md)
