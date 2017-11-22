@@ -1,20 +1,22 @@
-# Transaction.GetInputs Method ()
+# Método `Transaction.GetInputs()`
 
-Returns all transaction inputs for the transaction.
+Retorna todas as entradas (*inputs*) da transação.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+
+## Sintaxe
 
 ```c#
 public extern Neo.SmartContract.Framework.Services.Neo.TransactionInput[] GetInputs()
 ```
 
-Return Value: All transaction inputs for the current transaction as a [TransactionInput](../TransactionInput.md) array.
+Retorno: Todas as entradas (*inputs*) da transação atual como um *array* de elementos [TransactionInput](../TransactionInput.md).
 
-## Example
+
+## Exemplo
 
 ```c#
 public class Contract1: FunctionCode
@@ -31,4 +33,4 @@ public class Contract1: FunctionCode
 
 
 
-[Back](../Transaction.md)
+[Voltar](../Transaction.md)
