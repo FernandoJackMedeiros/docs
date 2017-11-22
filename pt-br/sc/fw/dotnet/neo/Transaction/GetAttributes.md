@@ -1,20 +1,21 @@
-# Transaction.GetAttributes Method ()
+# Método `Transaction.GetAttributes()`
 
-Returns all attributes of the transaction.
+Retorna todos os atributos da transação.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public extern Neo.SmartContract.Framework.Services.Neo.TransactionAttribute[] GetAttributes()
 ```
 
-Return Value: All attributes of the current transaction, as a [TransactionAttribute](../TransactionAttribute.md) array.
+Retorno: Todos os atributos da transação atual como um *array* de elementos [TransactionAttribute](../TransactionAttribute.md).
 
-## Example
+
+## Exemplo
 
 ```c#
 public class Contract1: FunctionCode
@@ -30,4 +31,4 @@ public class Contract1: FunctionCode
 
 
 
-[Back](../Transaction.md)
+[Voltar](../Transaction.md)
