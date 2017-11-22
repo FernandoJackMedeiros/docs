@@ -1,15 +1,15 @@
-# StorageContext.Current Enumeration
+# Enum `StorageContext.Current`
 
-The storage context of the current contract.
+O contexto de armazenamento do contrato atual.
 
 > [!Caution]
-> Note: deprecated in version 2.0.
+> Obsoleto na versão 2.0.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## syntax
+## sintaxe
 
 ```c#
 public enum StorageContext: byte
@@ -20,8 +20,8 @@ public enum StorageContext: byte
 }
 ```
 
-Enumeration value: 1.
+Valor Enum: 1.
 
 
 
-[Back](../StorageContext.md)
+[Voltar](../StorageContext.md)
