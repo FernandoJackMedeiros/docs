@@ -1,15 +1,15 @@
-# StorageContext.EntryContract Enumeration
+# Enum `StorageContext.EntryContract`
 
-The storage context of the contract entry point (the starting point of the contract invocation chain).
+O contexto de armazenamento do ponto de entrada do contrato (o ponto de partida da invocação do contrato da *blockchain*).
 
 > [!Caution]
-> Note: deprecated in version 2.0.
+> Obsoleto na versão 2.0
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public enum StorageContext: byte
@@ -20,8 +20,8 @@ public enum StorageContext: byte
 }
 ```
 
-Enumeration value: 4.
+Valor Enum: 4.
 
 
 
-[Back](../StorageContext.md)
+[Voltar](../StorageContext.md)
