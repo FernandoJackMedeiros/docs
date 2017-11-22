@@ -1,19 +1,20 @@
-# Transaction.Hash Property
+# Propriedade `Transaction.Hash`
 
-Returns the transaction hash.
+Retorna a *hash* da transação.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+
+## Sintaxe
 
 ```c#
 public extern byte[] Hash {get;}
 ```
 
-Attribute value: Transaction hash as a byte array of length 32.
+Atributo: *Hash* da transação como um *array* byte de tamanho 32.
 
 
 
-[Back](../Transaction.md)
+[Voltar](../Transaction.md)
