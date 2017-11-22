@@ -1,42 +1,50 @@
-# Transaction.Type Property
+# Propriedade `Transaction.Type`
 
-Returns the transaction type.
+Retorna o tipo da transação.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public extern byte Type {get;}
 ```
 
-Attribute value: Transaction type as a byte.
+Atributo: Tipo da transação, no formato de um byte.
 
-Types:
+Tipos:
 
 ```c#
-// consensus transaction, special transaction for allocating byte charges
+//Transação de consenso, transações especiais para pagamentos de byte alocado
 MinerTransaction = 0x00,
-//Special transactions for the distribution of assets
+
+//Transações especiais para distribuição de ativos:
 IssueTransaction = 0x01,
-// special deals for the distribution of small coins
+
+//Negociações especiais para distribuição de pequenas moedas
 ClaimTransaction = 0x02,
-//Special transaction for registration as a book of candidates
+
+//Transação especial para registro como nó de consenso
 EnrollmentTransaction = 0x20,
-//Special transactions for asset registration
+
+//Transações especiais para registro de ativo
 RegisterTransaction = 0x40,
-// contract transaction, which is the most commonly used deal
+
+//Transação contrato, a mais comum utilizada
 ContractTransaction = 0x80,
-// commissioned by the transaction
+
+//Comissionado pela transação
 AgencyTransaction = 0xb0,
-// issue a deal with a smart contract
+
+//Emitir uma ordem com um smart contract
 PublishTransaction = 0xd0,
-// Invoke smart contract transactions
+
+//Invocar transações de smart contract
 InvocationTransaction = 0xd1
 ```
 
 
 
-[Back](../Transaction.md)
+[Voltar](../Transaction.md)
