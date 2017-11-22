@@ -1,20 +1,21 @@
-# Transaction.GetReferences Method ()
+# Método `Transaction.GetReferences()`
 
-Returns all transaction outputs referenced by the transaction inputs of the transaction.
+Retorna todas as saídas (*outputs*) referenciadas pelas entradas (*inputs*) da transação.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public extern Neo.SmartContract.Framework.Services.Neo.TransactionOutput[] GetReferences()
 ```
 
-Return Value: The transaction outputs as a [TransactionOutput](../TransactionOutput.md).
+Retorno: Todas as saídas (*outputs*) da transação, como um [TransactionOutput](../TransactionOutput.md).
 
-## Example
+
+## Exemplo
 
 ```c#
 public class Contract1: FunctionCode
@@ -30,4 +31,4 @@ public class Contract1: FunctionCode
 
 
 
-[Back](../Transaction.md)
+[Voltar](../Transaction.md)
