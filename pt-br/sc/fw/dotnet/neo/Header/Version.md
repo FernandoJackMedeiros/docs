@@ -1,19 +1,19 @@
-# Header.Version Property
+# Propriedade `Header.Version`
 
-Return the version number of the block.
+Retorna o número da versão do bloco.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: Neo.SmartContract.Framework
 
-## Syntax
+## Sintaxe
 
 ```c#
 public extern uint Version {get;}
 ```
 
-Attribute value: Version number as an unsigned integer.
+Atributo: Número da versão do bloco no formato de um inteiro não-negativo.
 
 
 
-[Back](../header.md)
+[Voltar](../header.md)
