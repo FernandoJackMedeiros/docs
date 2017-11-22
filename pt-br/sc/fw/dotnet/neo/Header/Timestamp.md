@@ -1,19 +1,19 @@
-# Header.Timestamp Property
+# Propriedade `Header.Timestamp`
 
-Returns the timestamp of the block.
+Retorna o *time stamp* do bloco.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public extern uint Timestamp {get;}
 ```
 
-Attribute value: UNIX timestamp as an unsigned integer.
+Atributo: *time stamp* UNIX no formato inteiro não-negativo.
 
 
 
-[Back](../header.md)
+[Voltar](../header.md)
