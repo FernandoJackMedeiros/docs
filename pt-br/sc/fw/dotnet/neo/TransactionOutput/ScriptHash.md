@@ -1,19 +1,19 @@
-# TransactionOutput.ScriptHash Property
+# Propriedade `TransactionOutput.ScriptHash`
 
-Returns the scripthash of the transaction output.
+Retorna a *scripthash* da saída (*output*) da transação.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public extern byte[] ScriptHash {get;}
 ```
 
-Attribute value: Scripthash as a byte array of length 20.
+Atributo: A *scripthash* no formato de um *array* byte com tamanho 20.
 
 
 
-[Back](../TransactionOutput.md)
+[Voltar](../TransactionOutput.md)
