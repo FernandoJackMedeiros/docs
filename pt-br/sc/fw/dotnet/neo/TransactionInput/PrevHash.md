@@ -1,19 +1,19 @@
-# TransactionInput.PrevHash property
+# Propriedade `TransactionInput.PrevHash`
 
-Returns the transaction hash of the referenced previous transaction.
+Retorna a *hash* da transação anterior a qual esta entrada (*input*) se refere.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public extern byte[] Hash {get;}
 ```
 
-Attribute value: Transaction hash as a byte array of length 32.
+Atributo: *Hash* da transação no formato de um *array* byte com tamanho 32.
 
 
 
-[Back](../TransactionInput.md)
+[Voltar](../TransactionInput.md)
