@@ -1,19 +1,20 @@
-# TransactionOutput.AssetId Property
+# Propriedade `TransactionOutput.AssetId`
 
-Returns the asset ID of the transaction output.
+Retorna o id do ativo de saída (*output*) da transação.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+
+## Sintaxe
 
 ```c#
 public extern byte[] AssetId {get;}
 ```
 
-Attribute value: Asset ID as a byte array of length 32.
+Atributo: Id do ativo, no formato de um *array* byte de 32 elementos.
 
 
 
-[Back](../TransactionOutput.md)
+[Voltar](../TransactionOutput.md)
