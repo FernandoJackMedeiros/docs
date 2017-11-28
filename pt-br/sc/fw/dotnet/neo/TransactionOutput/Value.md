@@ -1,19 +1,19 @@
-# TransactionOutput.Value Property
+# Propriedade `TransactionOutput.Value`
 
-Returns the amount in the transaction output.
+Retorna a quantia na saída (*output*) da transação.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public extern long value {get;}
 ```
 
-Attribute value: Amount as a long integer, the actual value being the returned amount multipled by 100,000,000.
+Atributo: Quantia no formato de um inteiro longo, multiplicado por 100.000.000.
 
 
 
-[Back](../TransactionOutput.md)
+[Voltar](../TransactionOutput.md)
