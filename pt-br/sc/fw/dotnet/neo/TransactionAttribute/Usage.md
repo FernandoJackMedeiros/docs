@@ -1,37 +1,38 @@
-# TransactionAttribute.Usage Property
+# Propriedade `TransactionAttribute.Usage`
 
-Returns the purpose of the transaction.
+Retorna a finalidade da transação.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public extern byte Usage {get;}
 ```
 
-Attribute value: The purpose of the transaction as a byte array.
+Atributo: Finalidade da transação, como um *array* byte.
 
-Purposes:
+
+Finalidades:
 
 ```c#
-// The hash value of the external contract
+// A hash do contrato externo
 ContractHash = 0x00,
-// The public key for ECDH key exchange, the first byte of the public key is 0x02
+// A chave pública troca de chave ECDH; o primeiro byte da chave pública é 0x02
 ECDH02 = 0x02,
-// The public key for ECDH key exchange, the first byte of the public key is 0x03
+// Chave pública para troca entre chave ECDH; O primeiro byte da chave pública é 0x03
 ECDH03 = 0x03,
-// for additional verification of the transaction
+// Para verificação adicional da transação
 Script = 0x20,
-// vote information
+// Informação de voto
 Vote = 0x30,
-// Transaction description URL
+// URL de descrição da transação
 DescriptionUrl = 0x81,
-//Description
+//Descrição
 Description = 0x90,
-// can be used to do the data stored in Hash
+// Pode ser usada para a informação armazenada em Hash
 Hash1 = 0xa1,
 Hash2 = 0xa2,
 Hash3 = 0xa3,
@@ -47,7 +48,7 @@ Hash12 = 0xac,
 Hash13 = 0xad,
 Hash14 = 0xae,
 Hash15 = 0xaf,
-// Transaction Notes
+// Observações de transação
 Remark = 0xf0,
 Remark1 = 0xf1,
 Remark2 = 0xf2,
@@ -67,5 +68,4 @@ Remark15 = 0xff
 ```
 
 
-
-[Return to superior](../TransactionAttribute.md)
+[Voltar para cima](../TransactionAttribute.md)
