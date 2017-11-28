@@ -1,19 +1,19 @@
-# TransactionInput.PrevIndex Property
+# Propriedade `TransactionInput.PrevIndex`
 
-Returns the index of this input in the output list of the previous transaction.
+Retorna o índice desta entrada (*input*) com referência à lista de saídas (*outputs*) da transação anterior.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public extern ushort PrevIndex {get;}
 ```
 
-Attribute value: Index number starting from 0 as an unsigned short integer.
+Atributo: Número do índice, que inicia em 0, no formato inteiro curto não-negativo.
 
 
 
-[Back](../TransactionInput.md)
+[Voltar](../TransactionInput.md)
