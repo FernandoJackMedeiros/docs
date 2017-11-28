@@ -1,6 +1,6 @@
 # Propriedade `TransactionAttribute.Hash`
 
-Retorna informação/dados da transação que não seu propósito/uso.
+Retorna a *hash* para as informações/dados da transação.
 
 
 `Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
