@@ -1,26 +1,27 @@
-# Validator.Register Method (byte[])
+# Método `Validator.Register(byte[])`
 
-Register as a bookkeeper. This is only registration, you will require votes in order to be selected.
+Registro de um Nó de Concenso. Refere-se apenas ao registro, mas o nó precisará de votos para ser selecionado.
 
-This method replaces RegisterTransaction in version 2.0.
+Este método substitui o método `RegisterTransaction` na versão 2.0.
 
-Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
+`Namespace`: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
-Assembly: Neo.SmartContract.Framework
+`Assembly`: [Neo.SmartContract.Framework](../../../dotnet.md)
 
-## Syntax
+## Sintaxe
 
 ```c#
 public static extern Neo.SmartContract.Framework.Services.Neo.Validator Register(byte[] pubkey)
 ```
 
-Parameters:
+Parâmetros:
 
-pubkey：Public key as a byte array of length 33.
+`pubkey`：Chave pública no formato de um *array* byte de tamanho 33.
 
-Return value: [Validator](../Validator.md)
+Retorno: [Validador](../Validator.md)
 
-## Example
+
+## Exemplo
 
 ```c#
 public class Contract1 : FunctionCode
@@ -35,4 +36,4 @@ public class Contract1 : FunctionCode
 
 
 
-[Back](../Validator.md)
+[Voltar](../Validator.md)
